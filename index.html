@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Academy: Седона</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="main-header">
+		<img src="http://placehold.it/67x56" alt="" class="logo" width="67" height="56">
+		<nav class="main-nav">
+			<ul>
+				<li><a href="#">Информация</a></li>
+				<li><a href="#">Фото и видео</a></li>
+				<li><a href="#">Карта штата</a></li>
+				<li><a href="hotels.html">Гостиницы</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main-wrap">
+		<section class="heading-container">
+			<h1>Седона - небольшой городок в Аризоне, заслуживающий большего</h1>
+			<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+		</section>
+		<section class="reasons-why">
+			<div class="reasons-why-row1">
+				<section class="reasons-why-text-wrap">
+					<h2 class="reasons-why-heading">Настоящий городок</h2>
+					<p class="reasons-why-numeration">№1</p>
+					<p class="reasons-why-details">Седона — не аттракцион для туристов, там течет своя жизнь</p>
+				</section>
+				<img src="http://placehold.it/800x256" alt="" width="800" height="256">
+			</div>
+			<div class="reasons-why-row2">
+				<div class="container-features">
+					<h2>Жилье</h2>
+					<p>Рекомендуем пожить в настоящем мотеле, все как в кино</p>
+				</div>
+				<div class="container-features">
+					<h2>Еда</h2>
+					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
+				</div>
+				<div class="container-features">
+					<h2>Сувениры</h2>
+					<p>Не только китайского, но и местного производства</p>
+				</div>
+			</div>
+			<div class="reasons-why-row3">
+				<img src="http://placehold.it/800x256" alt="" width="800" height="256">
+				<section class="reasons-why-text-wrap">
+					<h2 class="reasons-why-heading">Там есть мост дьявола</h2>
+					<p class="reasons-why-numeration">№2</p>
+					<p class="reasons-why-details">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				</section>
+			</div>
+			<div class="reasons-why-row4">
+				<div class="container-reasons">
+					<h2>Небольшая площадь</h2>
+					<p class="numeration">№3</p>
+					<p>Все достопримечательности находятся очень близко</p>
+				</div>
+				<div class="container-reasons">
+					<h2>Красивая дорога</h2>
+					<p class="numeration">№4</p>
+					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+				</div>
+				<div class="container-reasons">
+					<h2>Сувениры</h2>
+					<p class="numeration">№5</p>					
+					<p>Большинство едет в Гранд Каньон и толпится там</p>
+				</div>
+			</div>
+		</section>
+		<section class="form-container">
+			<h2>Заинтересовались?</h2>
+			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие гостинницы в Седоне</p>
+			<div class="form-wrap">
+				<div class="form-heading">
+					<h2>Поиск гостиницы в Cедоне</h2>	
+				</div>	
+				<div class="form-container">
+					<form action="http://echo.htmlacademy.ru" method="post">
+						<label for="checkin">Дата заезда: </label><input type="date" id="checkin">
+						<label for="checkout">Дата выезда: </label><input type="date" id="checkout">
+						<label for="adults">Взрослые: </label><input type="text" id="adults">
+						<label for="children">Дети: </label><input type="text" id="children">
+						<input type="submit" value="Найти">
+					</form>
+				</div>
+			</div>
+			<div class="map-container"></div>
+		</section>
+	</main>
+	<footer class="main-footer">
+		<section class="footer-hashtag">
+			#Visitsedona
+		</section>
+		<section class="footer-social">
+			<a class="social-btn social-btn-twitter" href="#">Твитер</a>
+			<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+			<a class="social-btn social-btn-youtube" href="#">Ютуб</a>
+		</section>
+		<section class="footer-copyright">
+			<span>Website by</span>
+			<img src="http://placehold.it/113x39" alt="" width="113" height="39">
+		</section>
+	</footer>
+</body>
 </html>
