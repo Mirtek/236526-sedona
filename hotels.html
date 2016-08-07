@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header class="main-header">
-		<img src="http://placehold.it/67x56" alt="" class="logo" width="67" height="56">
+		<a href="index.html"><img src="http://placehold.it/67x56" alt="" class="logo" width="67" height="56"></a>
 		<nav class="main-nav">
 			<ul>
 				<li><a href="#">Информация</a></li>
@@ -19,28 +19,25 @@
 	</header>
 	<main>
 		<div class="container-form">
-			<div class="form-bg-image"></div>
 			<form action="http://echo.htmlacademy.ru" method="post">
-				<div class="form-1-column">
-					<p>Инфраструктура</p>
+				<fieldset class="form-1-column">
+					<legend>Инфраструктура</legend>
 					<input type="checkbox" id="pool" name="Басейн" checked><label for="pool">Басейн</label>
 					<input type="checkbox" id="parking" name="Парковка"><label for="parking">Парковка</label>
 					<input type="checkbox" id="wifi" name="Wi-Fi"><label for="wifi">Wi-Fi</label>
-				</div>
-				<div class="form-2-column">
-					<p>Тип жилья</p>
+				</fieldset>
+				<fieldset class="form-2-column">
+					<legend>Тип жилья</legend>
 					<input type="checkbox" id="guesthouse" name="Гостиница" checked><label for="guesthouse">Гостиница</label>
 					<input type="checkbox" id="hotel" name="Мотель" checked><label for="hotel">Мотель</label>
 					<input type="checkbox" id="appartment" name="Аппартаменты" checked><label for="appartment">Аппартаменты</label>
-				</div>
-				<div class="form-3-column">
-					<p>Стоимость в сутки (Р)</p>
-					<div class="range-wrap">
-						<div>от 0</div>
-						<div>до 3000</div>
-					</div>
+				</fieldset>
+				<fieldset class="form-3-column">
+					<legend>Стоимость в сутки (Р)</legend>
+						<a href="#">от 0</a>
+						<a href="#">до 3000</a>
 					<input type="range" name="Стоимость" min="0" max="3000">
-				</div>
+				</fieldset>
 				<input type="submit" value="Показать">
 			</form>
 		</div>
@@ -48,9 +45,9 @@
 			<h2>Найдено: 3</h2>			
 			<p>Сортировка:</p>
 			<ul>
-				<li>По цене</li>
-				<li>По типу</li>
-				<li>По рейтингу</li>
+				<li><a href="#">По цене</a></li>
+				<li><a href="#">По типу</a></li>
+				<li><a href="#">По рейтингу</a></li>
 			</ul>
 			<div class="arrows">
 				<div class="arrow-up"></div>
