@@ -4,6 +4,8 @@
 	line-height: 21px;
 	color: #333;
 	font-weight: 400;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -19,3 +21,53 @@ h2 {
 	color: #000;
 	font-weight: bold;
 }
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.main-header {
+	min-height: 55px;
+}
+
+.main-header > img {
+	position: absolute;
+	margin-left: 567px;
+}
+
+nav.main-nav > ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav.main-nav > ul > li {
+	display: inline-block;
+	list-style: none;
+	padding-top: 22px;
+}
+
+nav.main-nav > ul > li:nth-child(1) {
+	margin-left: 73px;
+}
+
+nav.main-nav > ul > li:nth-child(2) {
+	margin-left: 148px;
+}
+
+nav.main-nav > ul > li:nth-child(3) {
+	margin-left: 388px;
+}
+
+nav.main-nav > ul > li:nth-child(4) {
+	margin-left: 162px;
+	margin-right: 73px;
+}
+
