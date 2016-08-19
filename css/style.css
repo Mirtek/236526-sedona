@@ -71,3 +71,43 @@ nav.main-nav > ul > li:nth-child(4) {
 	margin-right: 73px;
 }
 
+.heading-container {
+ /*	margin-top: 630px; убрал пока, бесит */
+	width: 500px;
+}
+
+.heading-container > h1 {
+	font-size: 21px;
+	text-align: center;
+}
+
+.heading-container > p {
+	text-align: center;
+	padding-bottom: 55px;
+}
+
+.reasons-why-row1 {
+	min-height: 256px;
+}
+
+.reasons-why-row1 > .reasons-why-text-wrap {
+	float: left;
+	width: 300px;
+	height: 156px;
+	padding: 50px;
+}
+
+.reasons-why-heading {
+	text-align: center;
+}
+
+.reasons-why-numeration {
+	text-align: center;
+}
+
+.reasons-why-details {
+	text-align: center;
+}
+.reasons-why-row1 > .reasons-why-text-wrap {
+	float: left;
+}
