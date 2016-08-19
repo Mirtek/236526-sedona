@@ -158,7 +158,6 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 
 section.form-container {
-	height: 295px;
 	width: 1200px;
 }
 
@@ -170,4 +169,45 @@ section.form-container > p {
 	width: 450px;
 	text-align: center;
 	margin: 0 auto;
+}
+
+.form-wrap {
+	width: 565px;
+	margin: 0 auto;
+	padding-top: 55px;
+}
+
+.form-heading {
+	text-align: center;
+}
+
+input {
+	display: block;
+}
+
+.main-footer {
+	min-height: 120px;
+	clear: both;
+	padding-top: 50px;
+}
+
+.footer-hashtag, .footer-social, .footer-copyright {
+	float: left;
+}
+.footer-hashtag {
+	float: left;
+	width: 270px;
+	padding-left: 130px;
+}
+
+.footer-social {
+	float: left;
+	width: 276px;
+	padding-left: 124px;
+}
+
+.footer-copyright {
+	float: left;
+	width: 297px;
+	padding-left: 103px;
 }
