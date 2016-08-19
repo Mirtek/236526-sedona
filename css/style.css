@@ -1,5 +1,5 @@
 ﻿body {
-	font-family: 'PT Sans', sans-serif;
+	/*font-family: 'PT Sans', sans-serif; */
 	font-size: 14px;
 	line-height: 21px;
 	color: #333;
@@ -87,7 +87,7 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 
 .reasons-why-row1 {
-	min-height: 256px;
+	height: 256px;
 }
 
 .reasons-why-row1 > .reasons-why-text-wrap {
@@ -110,4 +110,64 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 .reasons-why-row1 > .reasons-why-text-wrap {
 	float: left;
+}
+
+.reasons-why-row2 {
+	min-height: 330px;
+}
+
+.container-features {
+	float: left;
+	width: 250px;
+	padding-top: 165px;
+	padding-left: 75px;
+	padding-right: 75px;
+	text-align: center;
+
+}
+
+.container-features > h2 {
+	margin: 0;
+}
+
+.reasons-why-row3 {
+	height: 256px;
+}
+.reasons-why-row3 > section.reasons-why-text-wrap {
+	float: right;
+	width: 300px;
+	height: 156px;
+	padding: 50px;
+}
+
+.reasons-why-row4 {
+	height: 256px;
+}
+.reasons-why-row4 > .container-reasons {
+	float: left;
+	width: 220px;
+	padding-top: 50px;
+	padding-left: 90px;
+	padding-right: 90px;
+	text-align: center;
+
+}
+
+.reasons-why-row4 > .container-reasons > h2 {
+	margin: 0;
+}
+
+section.form-container {
+	height: 295px;
+	width: 1200px;
+}
+
+section.form-container > h2 {
+	text-align: center;
+}
+
+section.form-container > p {
+	width: 450px;
+	text-align: center;
+	margin: 0 auto;
 }
