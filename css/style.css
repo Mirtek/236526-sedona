@@ -38,7 +38,7 @@ h2 {
 	min-height: 55px;
 }
 
-.main-header > img {
+.logo {
 	position: absolute;
 	margin-left: 567px;
 }
@@ -210,4 +210,68 @@ input {
 	float: left;
 	width: 297px;
 	padding-left: 103px;
+}
+
+.container-form {
+	min-height: 217px;
+	padding-top: 30px;
+}
+
+fieldset.form-1-column {
+	padding-left: 73px;
+	width: 327px;
+	float: left;
+}
+
+fieldset.form-2-column {
+	width: 488px;
+	float: left;
+}
+
+fieldset.form-3-column {
+	width: 324px;
+	float: left;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hotels-list-menu {
+	min-height: 85px;
+}
+
+.hotel-list-menu > p {
+	float: left;
+}
+
+.row > img {
+	float: left;
+}
+
+.hotel-info {
+	float: left;
+}
+
+.hotel-ratings {
+	float: left;
+}
+
+.hotels-list-menu > h2 {
+	float: left;
+}
+
+.hotels-list-menu > p {
+	float: left;
+}
+
+.hotels-list-menu > ul {
+	list-style: none;
+}
+
+.hotels-list-menu > ul > li {
+	padding-left: 0;
+	float: left;
 }
