@@ -216,7 +216,6 @@ input {
 }
 
 fieldset.form-1-column {
-	padding-left: 73px;
 	width: 327px;
 	float: left;
 }
@@ -227,7 +226,6 @@ fieldset.form-2-column {
 }
 
 fieldset.form-3-column {
-	width: 324px;
 	float: left;
 }
 
@@ -267,12 +265,14 @@ fieldset {
 
 .hotels-list-menu > ul {
 	list-style: none;
+	float: left;
 }
 
 .hotels-list-menu > ul > li {
 	padding-left: 0;
 	float: left;
 }
+
 .arrows {
-	float:right;se
+	float: right;
 }
