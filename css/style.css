@@ -160,7 +160,9 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 
 section.form-container {
-	width: 1200px;
+	width: 565px;
+	margin: 0 auto;
+	padding-top: 55px;
 }
 
 section.form-container > h2 {
@@ -174,9 +176,6 @@ section.form-container > p {
 }
 
 .form-wrap {
-	width: 565px;
-	margin: 0 auto;
-	padding-top: 55px;
 }
 
 .form-heading {
@@ -193,9 +192,6 @@ input {
 	padding-top: 50px;
 }
 
-.footer-hashtag, .footer-social, .footer-copyright {
-	float: left;
-}
 .footer-hashtag {
 	float: left;
 	width: 270px;
@@ -278,5 +274,5 @@ fieldset {
 	float: left;
 }
 .arrows {
-	float:right;
+	float:right;se
 }
