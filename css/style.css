@@ -258,7 +258,7 @@ fieldset {
 }
 
 .hotel-ratings {
-	float: left;
+	float: right;
 }
 
 .hotels-list-menu > h2 {
@@ -276,4 +276,7 @@ fieldset {
 .hotels-list-menu > ul > li {
 	padding-left: 0;
 	float: left;
+}
+.arrows {
+	float:right;
 }
