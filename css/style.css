@@ -33,7 +33,7 @@ h2 {
 	content:"";
 	width: 1200px;
 	height: 773px;
-	background: url('../img/background-top.jpg') 0 0 no-repeat;
+	background: url('../img/background-top.jpg') 0 -55px no-repeat;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -47,7 +47,7 @@ h2 {
 
 .overlay-position {
 	position: relative;
-	top: -150px;
+	top: -270px;
 	padding-top: 50px;
 }
 
@@ -103,7 +103,7 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 
 .heading-container {
- 	width: 500px;
+ 	width: 520px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -111,11 +111,13 @@ nav.main-nav > ul > li:nth-child(4) {
 .heading-container > h1 {
 	font-size: 21px;
 	text-align: center;
+	padding-top: 5px;
 }
 
 .heading-container > p {
 	text-align: center;
-	padding-bottom: 55px;
+	padding-top: 17px;
+	padding-bottom: 40px;
 }
 
 .reasons-why-row1 {
