@@ -164,16 +164,19 @@ nav.main-nav > ul > li:nth-child(4) {
 
 .container-features {
 	float: left;
-	width: 250px;
-	padding-top: 165px;
-	padding-left: 75px;
-	padding-right: 75px;
+	width: 300px;
+	padding-top: 160px;
+	padding-left: 50px;
+	padding-right: 50px;
 	text-align: center;
-
 }
 
 .container-features > h2 {
 	margin: 0;
+}
+
+.container-features > p {
+	padding-top: 10px;
 }
 
 .reasons-why-row3 {
