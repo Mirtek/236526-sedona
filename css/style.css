@@ -124,24 +124,36 @@ nav.main-nav > ul > li:nth-child(4) {
 	height: 256px;
 }
 
-.reasons-why-row1 > .reasons-why-text-wrap {
+.reasons-why-text-wrap {
 	float: left;
 	width: 300px;
 	height: 156px;
 	padding: 50px;
+	color: #fff;
+	background-color: #81b3d2;
+}
+
+.reasons-why-text-wrap > h2 {
+	color: #fff;
 }
 
 .reasons-why-heading {
 	text-align: center;
+	width: 150px;
+	margin: 0 auto;
+	padding-top: 4px;
 }
 
 .reasons-why-numeration {
 	text-align: center;
+	margin-top: 25px;
 }
 
 .reasons-why-details {
 	text-align: center;
+	margin-top: 20px;
 }
+
 .reasons-why-row1 > .reasons-why-text-wrap {
 	float: left;
 }
