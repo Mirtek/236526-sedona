@@ -7,6 +7,15 @@
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
+ /*    background-color: #f2f2f2; */
+}
+
+.page-shadow {
+	-webkit-box-shadow: 0 5px 15px rgba(0,1,1,.2);
+	-moz-box-shadow: 0 5px 15px rgba(0,1,1,.2);
+	box-shadow: 0 5px 15px rgba(0,1,1,.2);
+	width: 1200px;
+	margin: 0 auto;
 }
 
 h1 {
@@ -224,14 +233,19 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 .reasons-why-row3 > section.reasons-why-text-wrap {
 	float: right;
-	width: 300px;
+	width: 310px;
 	height: 156px;
-	padding: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 45px;
+	padding-right: 45px;
 }
 
 .reasons-why-row4 {
 	height: 256px;
+	background-color: #eeeeee;
 }
+
 .reasons-why-row4 > .container-reasons {
 	float: left;
 	width: 220px;
@@ -243,7 +257,15 @@ nav.main-nav > ul > li:nth-child(4) {
 }
 
 .reasons-why-row4 > .container-reasons > h2 {
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 35px;
+	margin-left: 35px;
+	width: 150px;
+}
+
+.reasons-why-row4 > .container-reasons > p {
+	padding-top: 7px;
 }
 
 section.form-container {
@@ -254,21 +276,32 @@ section.form-container {
 
 section.form-container > h2 {
 	text-align: center;
+	font-size: 30px;
+	padding-top: 0px;
+	margin-top: 4px;
 }
 
 section.form-container > p {
 	width: 450px;
 	text-align: center;
 	margin: 0 auto;
-}
-
-.form-wrap {
+	padding-top: 7px;
+	line-height: 1.65;
 }
 
 .form-heading {
 	text-align: center;
+	min-height: 70px;
+    background-color: #766357;
+    line-height: 70px;
+    padding-top: 17px;
+    margin-top: 44px;
 }
 
+.form-heading a {
+	text-decoration: none;
+	color: #ffffff;
+}
 input {
 	display: block;
 }
