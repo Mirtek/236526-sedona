@@ -191,11 +191,24 @@ nav.main-nav > ul > li:nth-child(4) {
 	background-repeat: no-repeat;
    	position: absolute;
    	display: block;
-	top: 59px;
-	left: 162px;
+	top: 60px;
+	left: 164px;
    	width: 75px;
     height: 72px;
     background-position: -90px -5px;
+}
+
+.container-features:nth-of-type(3) > h2::before {
+	content: "";
+	background: url('../img/row2-sprite.png');
+	background-repeat: no-repeat;
+   	position: absolute;
+   	display: block;
+	top: 55px;
+	left: 168px;
+   	width: 75px;
+    height: 76px;
+    background-position: -90px -85px;
 }
 
 .container-features > h2 {
