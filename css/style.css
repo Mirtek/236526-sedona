@@ -65,19 +65,10 @@ nav.main-nav a {
 	min-height: 55px;
 }
 
-.logo-bg {
+.logo {
 	position: absolute;
 	margin-left: 532px;
 	top: 0px;
-}
-
-.logo {
-	position: absolute;
-	margin-left: 567px;
-	top: 0px;
-/*	background-image: url('../img/logo-bg.png');
-	background-position: 0 0;
-*/
 }
 
 nav.main-nav > ul {
