@@ -386,6 +386,8 @@ input {
 .container-form {
 	min-height: 217px;
 	padding-top: 30px;
+	background-image: url('../img/filter-background.jpg');
+	background-position: 0 0;
 }
 
 fieldset.form-1-column {
@@ -461,7 +463,6 @@ fieldset {
 	background-color: #81b3d2;
 	background-image: url('../img/social-icons-sprite.png');
 	background-repeat: no-repeat;
-
 }
 
 .social-btn-twitter {
