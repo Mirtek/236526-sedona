@@ -422,13 +422,6 @@ fieldset {
 	padding-top: 17px;
 }
 
-.hotel-list-menu > p {
-	float: left;
-	font-size: 12px;
-    padding-left: 48px;
-    padding-top: 8px;
-}
-
 .row > img {
 	float: left;
 }
@@ -447,6 +440,9 @@ fieldset {
 
 .hotels-list-menu > p {
 	float: left;
+	font-size: 12px;
+    padding-left: 48px;
+    padding-top: 8px;
 }
 
 .hotels-list-menu > ul {
