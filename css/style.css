@@ -348,8 +348,11 @@ input {
 
 .footer-hashtag {
 	float: left;
-	width: 270px;
-	padding-left: 130px;
+	width: 267px;
+	padding-left: 133px;
+	font-size: 21px;
+	font-weight: bold;
+
 }
 
 .footer-social {
@@ -362,6 +365,16 @@ input {
 	float: left;
 	width: 297px;
 	padding-left: 103px;
+}
+
+.footer-copyright > span {
+	display: block;
+	float: left;
+}
+
+.footer-copyright > img {
+	margin-top: -8px;
+	margin-left: 8px;
 }
 
 .container-form {
@@ -429,4 +442,30 @@ fieldset {
 
 .arrows {
 	float: right;
+}
+
+.social-btn {
+	display: inline-block;
+	vertical-align: middle;
+    width: 46px;
+    height: 48px;
+	font-size: 0;
+	margin-left: 2px;
+	margin-top: -12px;
+	background-color: #81b3d2;
+	background-image: url('../img/social-icons-sprite.png');
+	background-repeat: no-repeat;
+
+}
+
+.social-btn-twitter {
+    background-position: -41px 0px;
+}
+
+.social-btn-fb {
+    background-position: 3px -2px;
+}
+
+.social-btn-yt {
+    background-position: -88px 0px;
 }
