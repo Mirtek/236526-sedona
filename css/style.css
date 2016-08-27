@@ -346,6 +346,12 @@ input {
 	margin-top: 145px;
 }
 
+@-moz-document url-prefix() { 
+  .main-footer {
+     margin-top: -135px;
+  }
+}
+
 .footer-hashtag {
 	float: left;
 	width: 267px;
