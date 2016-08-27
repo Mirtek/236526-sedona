@@ -281,7 +281,6 @@ section.form-container {
 	width: 565px;
 	margin: 0 auto;
 	padding-top: 55px;
-	background-color: #fff;
 	z-index: 120;
 	position: relative;
 }
@@ -299,6 +298,12 @@ section.form-container > p {
 	margin: 0 auto;
 	padding-top: 7px;
 	line-height: 1.65;
+}
+
+.form-content {
+	background-color: #fff;
+	margin-top: -17px;
+	min-height: 395px;
 }
 
 .form-heading {
@@ -324,8 +329,7 @@ input {
 	width: 1200px;
 	height: 593px;
 	position: relative;
-	top: -235px;
-
+	top: -395px;
 	margin-bottom: -235px;
 	z-index: 100;
 
