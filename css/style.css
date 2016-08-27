@@ -497,6 +497,16 @@ fieldset {
 	padding-top: 2px;
 }
 
+.hotel-ratings > .rating {
+	margin-top: 91px;
+    margin-right: 73px;
+    background-color: #f2f2f2;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
 .hotels-list-menu > p {
 	float: left;
 	font-size: 12px;
@@ -539,6 +549,10 @@ fieldset {
 	padding-left: 72px;
 	border-top: 1px solid #e5e5e5;
 	height: 152px;
+}
+
+.row:last-of-type {
+	border-bottom: 1px solid #e5e5e5;
 }
 
 .hotels-container-color {
