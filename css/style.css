@@ -383,16 +383,22 @@ input {
 	margin-left: 8px;
 }
 
-.container-form {
+.hotels-form-container {
 	min-height: 217px;
-	padding-top: 30px;
 	background-image: url('../img/filter-background.jpg');
 	background-position: 0 0;
+}
+
+.hotels-form-container > form {
+    padding-top: 30px;
+    font-size: 16px;
+    color: #fff;
 }
 
 fieldset.form-1-column {
 	width: 327px;
 	float: left;
+	padding-left: 73px;
 }
 
 fieldset.form-2-column {
@@ -412,10 +418,15 @@ fieldset {
 
 .hotels-list-menu {
 	min-height: 85px;
+	padding-left: 73px;
+	padding-top: 17px;
 }
 
 .hotel-list-menu > p {
 	float: left;
+	font-size: 12px;
+    padding-left: 48px;
+    padding-top: 8px;
 }
 
 .row > img {
