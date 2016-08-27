@@ -451,8 +451,30 @@ fieldset {
 }
 
 .hotels-list-menu > ul > li {
-	padding-left: 0;
+	font-size: 12px;
 	float: left;
+	padding-left: 0;
+	padding-right: 30px;
+	padding-top: 5px;
+
+}
+
+.hotels-list-menu a {
+	text-decoration: none;
+}
+
+.hotels-list-menu a {
+	color: #000;
+	color: rgba(0, 0 , 0, 0.3);
+	border-bottom: dotted 1px #81b3d2;
+}
+
+.hotels-list-menu a:hover {
+	color: #81b3d2;
+}
+
+.sort-active > a {
+	color: #81b3d2;
 }
 
 .arrows {
