@@ -69,8 +69,6 @@ h2 {
 .overlay-position {
 	margin-top: -264px;
 	padding-top: 44px;
-	min-height: 1983px;
-	max-height: 1983px;
 }
 
 .overlay-mask {
@@ -308,7 +306,8 @@ section.form-container > p {
 
 .form-content {
 	background-color: #fff;
-	margin-top: -17px;
+	float: left;
+	width: 565px;
 	min-height: 395px;
 }
 
@@ -335,11 +334,14 @@ input {
 	width: 1200px;
 	height: 593px;
 	z-index: 100;
-	margin-top: -395px;
+}
+
+.map-footer-container {
+	position: relative;
+
 }
 
 .main-footer {
-	margin-top: 50px;
 	min-height: 70px;
 	height: 70px;
 	clear: both;
@@ -347,17 +349,8 @@ input {
 	bottom: 0px;
 	background-color: #fff;
 	background-color: rgba(254, 254, 254, 0.9);
-    bottom:0;
-	z-index: 950;
-}
-
-.main-footer-index-position {
-}
-
-@-moz-document url-prefix() { 
-  .main-footer {
-     margin-top: -135px;
-  }
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-hashtag {
