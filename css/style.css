@@ -38,14 +38,22 @@ h2 {
 	clear: both;
 }
 
-.main-wrap::before {
-	content:"";
-	width: 1200px;
-	height: 773px;
+.bgimage {
 	background: url('../img/background-top.jpg') 0 -55px no-repeat;
+	width: 1200px;
+	height: 773px;	
+}
+
+.bgimage::after {
+	content: "";
+	width: 1200px;	
+	height: 57px;
+	background: url('../img/overlay-mask.png') 0 0 no-repeat;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+	position: absolute;
+	top: 507px;
 }
 
 .main-wrap {
@@ -59,10 +67,8 @@ h2 {
 }
 
 .overlay-position {
-	position: relative;
-	top: -264px;
+	margin-top: -264px;
 	padding-top: 44px;
-	margin-bottom: -264px;
 	min-height: 1983px;
 	max-height: 1983px;
 }
@@ -328,25 +334,22 @@ input {
 	background: url('../img/map.jpg');
 	width: 1200px;
 	height: 593px;
-	position: relative;
-	top: -395px;
-	margin-bottom: -235px;
 	z-index: 100;
-
 }
 
 .main-footer {
 	min-height: 70px;
+	height: 70px;
 	clear: both;
 	padding-top: 50px;
-	position: relative;
-	z-index: 200;
+	bottom: 0px;
 	background-color: #fff;
 	background-color: rgba(254, 254, 254, 0.9);
+    bottom:0;
+	z-index: 950;
 }
 
 .main-footer-index-position {
-	margin-top: 145px;
 }
 
 @-moz-document url-prefix() { 
