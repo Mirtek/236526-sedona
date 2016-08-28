@@ -335,9 +335,11 @@ input {
 	width: 1200px;
 	height: 593px;
 	z-index: 100;
+	margin-top: -395px;
 }
 
 .main-footer {
+	margin-top: 50px;
 	min-height: 70px;
 	height: 70px;
 	clear: both;
