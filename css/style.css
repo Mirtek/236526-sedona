@@ -306,18 +306,18 @@ section.form-container > p {
 	min-height: 395px;
 }
 
-.form-heading {
+a.form-heading {
+	display: block;
 	text-align: center;
 	min-height: 70px;
     background-color: #766357;
     line-height: 70px;
-    padding-top: 17px;
+    padding-top: 12px;
+    padding-bottom: 22px;
     margin-top: 44px;
-}
-
-.form-heading a {
 	text-decoration: none;
 	color: #ffffff;
+	font-size: 21px;
 }
 
 input {
