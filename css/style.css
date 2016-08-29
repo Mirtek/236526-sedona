@@ -341,12 +341,8 @@ input {
 }
 
 .main-footer {
-	position: relative;
 	min-height: 70px;
-	height: 70px;
-	clear: both;
 	padding-top: 50px;
-	bottom: 0px;
 	background-color: #fff;
 	background-color: rgba(254, 254, 254, 0.9);
     position: relative;
