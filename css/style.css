@@ -510,11 +510,11 @@ fieldset {
 	margin-left: 30px;
 }
 
-.hotel-info > h2:hover {
+.hotel-info > h2 > a:hover {
 	color: #81b3d2;
 }
 
-.hotel-info > h2:active {
+.hotel-info > h2 > a:active {
 	color: #cacaca;
 }
 .hotel-info > a {
@@ -607,6 +607,16 @@ fieldset {
 	color: #81b3d2;
 }
 
+.hotels-list-menu ul li a:active {
+	color: black;
+	border-bottom: none;
+}
+
+.hotels-list-menu ul li.sort-active > a {
+	color: #81b3d2;
+	border-bottom: none;
+}
+
 .hotels-list {
 }
 
@@ -622,10 +632,6 @@ fieldset {
 
 .hotels-container-color {
 	background-color: #fff;
-}
-
-.hotels-list-menu > ul li.sort-active > a {
-	color: #81b3d2;
 }
 
 .social-btn {
