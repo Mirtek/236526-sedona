@@ -337,9 +337,9 @@ a.form-heading {
 	min-height: 70px;
     background-color: #766357;
     line-height: 70px;
-    padding-top: 12px;
-    padding-bottom: 22px;
-    margin-top: 44px;
+	padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 48px;
 	text-decoration: none;
 	color: #ffffff;
 	font-size: 21px;
@@ -399,7 +399,7 @@ input {
 	float: left;
 }
 
-.footer-copyright > img {
+.footer-copyright > a > img {
 	margin-top: -8px;
 	margin-left: 8px;
 }
