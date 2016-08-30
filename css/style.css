@@ -691,8 +691,17 @@ fieldset {
 	width: 20px;
 	height: 20px;
 	font-size: 0;
-	background-image: url('../img/arrow-up-gray.png');
+	background-image: url('../img/arrows-sprite.png');
 	background-repeat: no-repeat;
+    background-position: -97px -15px;
+}
+
+.arrow-up:hover {
+	background-position: -15px -55px;
+}
+
+.arrow-up:active {
+	background-position: -56px -55px;
 }
 
 .arrow-down {
@@ -701,8 +710,26 @@ fieldset {
 	width: 20px;
 	height: 20px;
 	font-size: 0;
-	background-image: url('../img/arrow-down-blue.png');
+	background-image: url('../img/arrows-sprite.png');
 	background-repeat: no-repeat;
+    background-position: -97px -55px;
+}
+
+.arrow-down:hover {
+	background-position: -15px -15px;
+}
+
+.arrow-down:active {
+	background-position: -56px -15px;
+}
+
+
+.arrow-down-active {
+	background-position: -15px -15px;	
+}
+
+.arrow-up-active {
+	background-position: -15px -55px;
 }
 
 .stars {
