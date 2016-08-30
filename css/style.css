@@ -510,6 +510,11 @@ fieldset {
 	margin-left: 30px;
 }
 
+.hotel-info > h2 > a {
+	color: #000;
+	text-decoration: none;
+}
+
 .hotel-info > h2 > a:hover {
 	color: #81b3d2;
 }
@@ -517,6 +522,7 @@ fieldset {
 .hotel-info > h2 > a:active {
 	color: #cacaca;
 }
+
 .hotel-info > a {
 	display: block;
 	float: left;
@@ -541,26 +547,23 @@ fieldset {
 	padding-top: 2px;
 }
 
-.hotel-info a:nth-of-type(1):hover {
+.hotel-info > a:nth-of-type(1):hover {
 	background-color: #669ec0;
 }
 
-.hotel-info a:nth-of-type(1):active {
+.hotel-info > a:nth-of-type(1):active {
 	background-color: #5496bd;
 	color: rgba(255, 255, 255, 0.3);
 }
 
-.hotel-info a:nth-of-type(2):hover {
+.hotel-info > a:nth-of-type(2):hover {
 	background-color: #604e43;
 }
 
-.hotel-info a:nth-of-type(2):active {
+.hotel-info > a:nth-of-type(2):active {
 	background-color: #503e33;
 	color: rgba(255, 255, 255, 0.3);
 }
-
-
-
 
 .hotel-ratings > .rating {
 	margin-top: 91px;
@@ -754,5 +757,4 @@ fieldset {
 .stars-4 {
 	background-image: url('../img/stars-4.png');
 	margin-right: 63px;
-
 }
