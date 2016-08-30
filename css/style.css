@@ -622,16 +622,36 @@ fieldset {
 	background-repeat: no-repeat;
 }
 
+.social-btn:hover {
+	background-color: #669ec0;
+}
+
+.social-btn:active {
+	background-color: #5496bd;
+}
+
 .social-btn-twitter {
     background-position: -41px 0px;
+}
+
+.social-btn-twitter:active {
+	background-position: -41px -48px;
 }
 
 .social-btn-fb {
     background-position: 3px -2px;
 }
 
+.social-btn-fb:active {
+    background-position: 3px -50px;
+}
+
 .social-btn-yt {
     background-position: -88px 0px;
+}
+
+.social-btn-yt:active {
+    background-position: -88px -48px;
 }
 
 .arrows {
