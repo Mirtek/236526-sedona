@@ -327,8 +327,9 @@ section.form-container > p {
 .form-content {
 	background-color: #fff;
 	float: left;
-	width: 565px;
-	min-height: 395px;
+	width: 465px;
+	min-height: 295px;
+	padding: 50px;
 }
 
 a.form-heading {
