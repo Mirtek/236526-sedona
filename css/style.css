@@ -332,6 +332,18 @@ section.form-container > p {
 	padding: 50px;
 }
 
+.form-content label {
+	font-weight: bold;
+}
+
+.form-content label:nth-of-type(1) {
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-top: 16px;
+}
+
 a.form-heading {
 	display: block;
 	text-align: center;
