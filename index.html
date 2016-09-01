@@ -83,10 +83,13 @@
 						<a class="form-heading" href="#">Поиск гостиницы в Cедоне</a>		
 						<div class="form-content">
 							<form action="http://echo.htmlacademy.ru" method="post">
-								<label for="checkin">Дата заезда: </label><input type="text" id="checkin">
-								<label for="checkout">Дата выезда: </label><input type="text" id="checkout">
-								<label for="adults">Взрослые: </label><input type="text" id="adults">
-								<label for="children">Дети: </label><input type="text" id="children">
+								<div class="form-date-wrap clearfix">
+								<label class="checkin-label-position" for="checkin">Дата заезда: </label><input class="checkinout-input checkin-input-position" value="24 Апреля 2016" type="text" id="checkin"></div>
+								<div class="form-date-wrap clearfix">
+								<label class="checkout-label-position" for="checkout">Дата выезда: </label><input class="checkinout-input checkout-input-position" value="4 Июля 2016" type="text" id="checkout"></div>
+								<div class="form-date-wrap clearfix">
+								<label class="label-adults" for="adults">Взрослые: </label><input type="text" id="adults">
+								<label class="label-children" for="children">Дети: </label><input type="text" id="children"></div>
 								<input type="submit" value="Найти">
 							</form>
 						</div>
