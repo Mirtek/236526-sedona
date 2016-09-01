@@ -847,11 +847,19 @@ fieldset {
 
 
 .arrow-down-active {
-	background-position: -15px -15px;	
+	background-position: -56px -15px;	
+}
+
+.arrow-down-active:hover {
+	background-position: -56px -15px;	
 }
 
 .arrow-up-active {
-	background-position: -15px -55px;
+	background-position: -56px -55px;
+}
+
+.arrow-up-active:hover {
+	background-position: -56px -55px;
 }
 
 .stars {
