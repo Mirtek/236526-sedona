@@ -418,8 +418,12 @@ input.checkin-input-position {
 input#children, input#adults {
 	display: inline-block;
 	font-size: 14px;
-	width: 33px;
-	height: 32px;
+	width: 22px;
+	height: 36px;
+	border: none;
+	background-color: #f2f2f2;
+	font-weight: bold;
+	padding-left: 17px;
 }
 
 div.sign-block {
@@ -429,14 +433,16 @@ div.sign-block {
     background-color: #f2f2f2;
     display: inline-block;
     vertical-align: top;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 div.sign-minus {
-
+	background-image: url("../img/minus-sign.png");
 }
 
 div.sign-plus {
-
+	background-image: url("../img/plus-sign.png");
 }
 
 a.form-heading {
