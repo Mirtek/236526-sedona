@@ -415,7 +415,7 @@ input.checkin-input-position {
 	margin-left: 54px;
 }
 
-input#children, input#adults {
+.quantity {
 	display: inline-block;
 	font-size: 14px;
 	width: 22px;
@@ -424,6 +424,15 @@ input#children, input#adults {
 	background-color: #f2f2f2;
 	font-weight: bold;
 	padding-left: 17px;
+}
+
+input:focus {
+	outline: 3px solid #e5e5e5;
+	background-color: #fff;
+}
+
+input:focus:hover {
+	background-color: #fff;
 }
 
 div.sign-block {
@@ -467,8 +476,17 @@ a.form-heading {
 	font-size: 21px;
 	text-transform: uppercase;
 	color: #fff;
-	background: #81b3d2;
+	background-color: #81b3d2;
 	border: none;
+}
+
+.form-content input[type="submit"]:hover {
+	background-color: #669ec0;
+}
+
+.form-content input[type="submit"]:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .map-container {
