@@ -387,13 +387,14 @@ input.checkin-input-position {
 	margin-left: -2px;
 }
 
-.form-content label.label-adults {
+.form-content label.adults-label-position {
 	display: inline-block;
 	font-size: 14px;
-	margin-right: 71px;
+	margin-right: 78px;
+	margin-left: 7px;
 }
 
-.form-content label.label-children {
+.form-content label.children-label-position {
 	display: inline-block;
 	font-size: 14px;
 	margin-right: 65px;
