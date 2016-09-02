@@ -24,19 +24,23 @@
 		<div class="hotels-form-container clearfix">
 			<form action="http://echo.htmlacademy.ru" method="post">
 				<fieldset class="form-1-column">
-					<legend>Инфраструктура</legend>
-					<input type="checkbox" id="pool" name="Басейн" checked><label for="pool">Басейн</label>
-					<input type="checkbox" id="parking" name="Парковка"><label for="parking">Парковка</label>
-					<input type="checkbox" id="wifi" name="Wi-Fi"><label for="wifi">Wi-Fi</label>
+					<legend>Инфраструктура:</legend>
+					<ul class="form-1-list">
+					<li><input type="checkbox" id="pool" name="Басейн" checked><label for="pool">Бассейн</label></li>
+					<li>
+					<input type="checkbox" id="parking" name="Парковка"><label for="parking">Парковка</label></li>
+					<li>
+					<input type="checkbox" id="wifi" name="Wi-Fi"><label for="wifi">Wi-Fi</label></li>
+					</ul>
 				</fieldset>
 				<fieldset class="form-2-column">
-					<legend>Тип жилья</legend>
+					<legend>Тип жилья:</legend>
 					<input type="checkbox" id="guesthouse" name="Гостиница" checked><label for="guesthouse">Гостиница</label>
 					<input type="checkbox" id="hotel" name="Мотель" checked><label for="hotel">Мотель</label>
 					<input type="checkbox" id="appartment" name="Аппартаменты" checked><label for="appartment">Аппартаменты</label>
 				</fieldset>
 				<fieldset class="form-3-column">
-					<legend>Стоимость в сутки (Р)</legend>
+					<legend>Стоимость в сутки (Р):</legend>
 					<a href="#">от 0</a>
 					<a href="#">до 3000</a>
 					<input type="range" name="Стоимость" min="0" max="3000">

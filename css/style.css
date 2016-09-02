@@ -41,12 +41,12 @@ h2 {
 .bgimage {
 	background: url('../img/background-top.jpg') 0 -55px no-repeat;
 	width: 1200px;
-	height: 773px;	
+	height: 773px;  
 }
 
 .bgimage::after {
 	content: "";
-	width: 1200px;	
+	width: 1200px;  
 	height: 57px;
 	background: url('../img/overlay-mask.png') 0 0 no-repeat;
 	display: block;
@@ -350,7 +350,7 @@ section.form-container > p {
 	padding-left: 7px;
 	padding-right: 7px;
 	padding-bottom: 7px;
-	margin-top: 9px;	
+	margin-top: 9px;  
 	margin-right: 12px;
 }
 
@@ -372,7 +372,7 @@ input.checkinout-input:hover {
 }
 
 input.checkinout-input:active {
-	background-image: url("../img/calendar-icon-blue.png");	
+	background-image: url("../img/calendar-icon-blue.png"); 
 }
 
 input.checkout-input-position {
@@ -433,11 +433,11 @@ input:focus:hover {
 
 div.sign-block {
 	font-size: 14px;
-    height: 38px;
-    width: 38px;
-    background-color: #f2f2f2;
-    display: inline-block;
-    vertical-align: top;
+	height: 38px;
+	width: 38px;
+	background-color: #f2f2f2;
+	display: inline-block;
+	vertical-align: top;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
@@ -608,6 +608,77 @@ fieldset {
 	padding: 0;
 }
 
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+	position: absolute;
+	left: -9999px;
+}
+
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+	position: relative;
+	padding-left: 40px;
+	cursor: pointer;
+}
+
+[type="checkbox"]:not(:checked) + label:before {
+	content: "";
+	position: absolute;
+	left: 0; 
+	top: -2px;
+	width: 24px; 
+	height: 24px;
+	background-image: url("../img/checkbox-unchecked.png");
+	background-repeat: no-repeat;
+}
+
+[type="checkbox"]:checked + label:after {
+	content: "";
+	position: absolute;
+	left: 0; 
+	top: -2px;
+	width: 24px; 
+	height: 24px;
+	background-image: url("../img/checkbox-checked.png");
+	background-repeat: no-repeat;
+}
+
+
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+	box-shadow: none;
+	border-color: #bbb;
+	background-image: url("../img/checkbox-unchecked-disabled.png");
+}
+
+[type="checkbox"]:disabled:checked + label:after {
+	background-image: url("../img/checkbox-checked-disabled.png");
+	background-repeat: no-repeat;
+}
+
+[type="checkbox"]:disabled + label::after {
+	background-image: url("../img/checkbox-unchecked-disabled.png");
+	background-repeat: no-repeat;
+}
+
+legend {
+	font-weight: bold;
+}
+
+ul.form-1-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul.form-1-list > li {
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	margin-top: 1px;
+}
+
 .hotels-list-menu {
 	min-height: 68px;
 	padding-left: 73px;
@@ -684,7 +755,7 @@ fieldset {
 }
 
 .hotel-info > a:nth-of-type(1) {
-	background-color: #81b3d2;	
+	background-color: #81b3d2;  
 	padding: 0px 18px;
 	padding-top: 2px;
 	margin-top: -32px;
@@ -877,11 +948,11 @@ fieldset {
 
 
 .arrow-down-active {
-	background-position: -56px -15px;	
+	background-position: -56px -15px; 
 }
 
 .arrow-down-active:hover {
-	background-position: -56px -15px;	
+	background-position: -56px -15px; 
 }
 
 .arrow-up-active {
