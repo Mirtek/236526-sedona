@@ -368,21 +368,17 @@ input.checkinout-input {
 
 input.checkinout-input:hover {
 	background-color: #ebebeb;
+	background-image: url("../img/calendar-icon-black.png");
+}
+
+input.checkinout-input:active {
+	background-image: url("../img/calendar-icon-blue.png");	
 }
 
 input.checkout-input-position {
 	padding-left: 15px;
 	padding-right: 5px;
 }
-
-input.checkinout-input::before {
-	background-color: #000;
-    background: #000;
-	display: block;
-	width: 21px;
-	height: 22px;
-/*	background: url("../img/calendar-icon.png");
-*/}
 
 input.checkin-input-position {
 	padding-left: 15px;
@@ -450,8 +446,24 @@ div.sign-minus {
 	background-image: url("../img/minus-sign.png");
 }
 
+div.sign-minus:hover {
+	background-image: url("../img/minus-sign-black.png");
+}
+
+div.sign-minus:active {
+	background-image: url("../img/minus-sign-blue.png");
+}
+
 div.sign-plus {
 	background-image: url("../img/plus-sign.png");
+}
+
+div.sign-plus:hover {
+	background-image: url("../img/plus-sign-black.png");
+}
+
+div.sign-plus:active {
+	background-image: url("../img/plus-sign-blue.png");
 }
 
 a.form-heading {
