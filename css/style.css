@@ -588,13 +588,13 @@ a.form-heading {
 }
 
 fieldset.form-1-column {
-	width: 327px;
+	width: 255px;
 	float: left;
 	padding-left: 73px;
 }
 
 fieldset.form-2-column {
-	width: 488px;
+	width: 475px;
 	float: left;
 }
 
@@ -665,13 +665,13 @@ legend {
 	font-weight: bold;
 }
 
-ul.form-1-list {
+ul.form-hotels-list {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
-ul.form-1-list > li {
+ul.form-hotels-list > li {
 	font-size: 14px;
 	font-weight: 400;
 	padding-top: 20px;
