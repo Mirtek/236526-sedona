@@ -39,6 +39,7 @@ h2 {
 }
 
 .bgimage {
+  background-color: #91b9d7;
   background: url('../img/background-top.jpg') 0 -55px no-repeat;
   width: 1200px;
   height: 773px;  
@@ -198,6 +199,14 @@ nav.main-nav > ul > li:nth-child(4) {
 
 .reasons-why-row1 > .reasons-why-text-wrap {
   float: left;
+}
+
+.reasons-why-row1 > img {
+  background-color: #6e7d6b;
+}
+
+.reasons-why-row3 > img {
+  background-color: #dd9d7f;
 }
 
 .reasons-why-row2 {
@@ -577,6 +586,7 @@ a.form-heading {
 
 .hotels-form-container {
   min-height: 217px;
+  background-color: #394b55;
   background-image: url('../img/filter-background.jpg');
   background-position: 0 -55px;
   background-repeat: no-repeat;
