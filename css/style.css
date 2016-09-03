@@ -333,12 +333,23 @@ section.form-container > p {
   line-height: 1.65;
 }
 
+@keyframes form-bounce {
+  0% { transform: translateY(1000px); }
+  70% { transform: translateY(100px); }
+  80% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
 .form-content {
   background-color: #fff;
   float: left;
   width: 465px;
   min-height: 295px;
   padding: 50px;
+}
+
+.form-content-animate {
+  animation: form-bounce 0.3s;
 }
 
 .form-content label {

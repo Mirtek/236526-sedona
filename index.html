@@ -85,20 +85,20 @@
               <form action="http://echo.htmlacademy.ru" method="post">
                 <div class="form-date-wrap clearfix">
                   <label class="checkin-label-position" for="checkin">Дата заезда: </label>
-                  <input class="checkinout-input checkin-input-position" value="24 Апреля 2016" type="text" id="checkin">
+                  <input class="checkinout-input checkin-input-position" value="24 Апреля 2016" name="checkin-date" type="text" id="checkin">
                 </div>
                 <div class="form-date-wrap clearfix">
                   <label class="checkout-label-position" for="checkout">Дата выезда: </label>
-                  <input class="checkinout-input checkout-input-position" value="4 Июля 2016" type="text" id="checkout">
+                  <input class="checkinout-input checkout-input-position" value="4 Июля 2016" name="checkout-date" type="text" id="checkout">
                 </div>
                 <div class="form-date-wrap clearfix">
                   <label class="adults-label-position" for="adults">Взрослые: </label>
                   <div class="sign-block sign-minus"></div>
-                  <input type="text" id="adults" class="quantity" value="2">
+                  <input type="text" id="adults" class="quantity" name="adults-qty" value="2">
                   <div class="sign-block sign-plus"></div>                  
                   <label class="children-label-position" for="children">Дети: </label>
                   <div class="sign-block sign-minus"></div>
-                  <input type="text" id="children" class="quantity" value="0">
+                  <input type="text" id="children" class="quantity" name="children-qty" value="0">
                   <div class="sign-block sign-plus"></div>
                 </div>
                 <input type="submit" value="Найти">
@@ -126,5 +126,6 @@
       </footer>
     </div>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
