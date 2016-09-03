@@ -16,7 +16,11 @@
     }
     else if (isShown) {
       link[0].classList.add('form-content-animate-down');
-      link[0].style.visibility = "hidden"; 
       isShown = false;
+      setTimeout (hide,300);
     }
   });
+
+function hide(){
+  link[0].style.visibility = "hidden"; 
+}

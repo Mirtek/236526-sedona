@@ -333,11 +333,18 @@ section.form-container > p {
   line-height: 1.65;
 }
 
-@keyframes form-bounce {
+@keyframes form-bounce-in {
   0% { transform: translateY(1000px); }
   70% { transform: translateY(100px); }
   80% { transform: translateY(-10px); }
   100% { transform: translateY(0px); }
+}
+
+@keyframes form-bounce-out {
+  0% { transform: translateY(0px); }
+  20% { transform: translateY(10px); }
+  30% { transform: translateY(100px); }
+  100% { transform: translateY(1000px); }
 }
 
 .form-content {
@@ -349,11 +356,11 @@ section.form-container > p {
 }
 
 .form-content-animate-up {
-  animation: form-bounce 0.3s;
+  animation: form-bounce-in 0.3s;
 }
 
 .form-content-animate-down {
-  animation: form-bounce 0.3s;
+  animation: form-bounce-out 0.3s;
 }
 
 .form-content label {
