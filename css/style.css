@@ -39,6 +39,7 @@ h2 {
 }
 
 .bgimage {
+  background-color: #91b9d7;
   background: url('../img/background-top.jpg') 0 -55px no-repeat;
   width: 1200px;
   height: 773px;  
@@ -141,7 +142,7 @@ nav.main-nav > ul > li:nth-child(3) {
 
 nav.main-nav > ul > li:nth-child(4) {
   margin-left: 162px;
-  margin-right: 65px;
+  margin-right: 15px;
 }
 
 .heading-container {
@@ -198,6 +199,14 @@ nav.main-nav > ul > li:nth-child(4) {
 
 .reasons-why-row1 > .reasons-why-text-wrap {
   float: left;
+}
+
+.reasons-why-row1 > img {
+  background-color: #6e7d6b;
+}
+
+.reasons-why-row3 > img {
+  background-color: #dd9d7f;
 }
 
 .reasons-why-row2 {
@@ -324,12 +333,34 @@ section.form-container > p {
   line-height: 1.65;
 }
 
+@keyframes form-bounce-in {
+  0% { transform: translateY(1000px); }
+  70% { transform: translateY(100px); }
+  80% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes form-bounce-out {
+  0% { transform: translateY(0px); }
+  20% { transform: translateY(10px); }
+  30% { transform: translateY(100px); }
+  100% { transform: translateY(1000px); }
+}
+
 .form-content {
   background-color: #fff;
   float: left;
   width: 465px;
   min-height: 295px;
   padding: 50px;
+}
+
+.form-content-animate-up {
+  animation: form-bounce-in 0.3s;
+}
+
+.form-content-animate-down {
+  animation: form-bounce-out 0.3s;
 }
 
 .form-content label {
@@ -577,8 +608,10 @@ a.form-heading {
 
 .hotels-form-container {
   min-height: 217px;
+  background-color: #394b55;
   background-image: url('../img/filter-background.jpg');
-  background-position: 0 0;
+  background-position: 0 -55px;
+  background-repeat: no-repeat;
 }
 
 .hotels-form-container > form {
