@@ -348,7 +348,11 @@ section.form-container > p {
   padding: 50px;
 }
 
-.form-content-animate {
+.form-content-animate-up {
+  animation: form-bounce 0.3s;
+}
+
+.form-content-animate-down {
   animation: form-bounce 0.3s;
 }
 
