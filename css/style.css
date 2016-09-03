@@ -578,7 +578,8 @@ a.form-heading {
 .hotels-form-container {
   min-height: 217px;
   background-image: url('../img/filter-background.jpg');
-  background-position: 0 0;
+  background-position: 0 -55px;
+  background-repeat: no-repeat;
 }
 
 .hotels-form-container > form {
