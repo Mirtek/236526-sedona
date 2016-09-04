@@ -759,19 +759,6 @@ ul.form-hotels-list > li {
   float: left;
 }
 
-.hotel-info > a:nth-of-type(1) {
-  display: block;
-  float: left;
-  height: 27px;
-  background-color: #81b3d2;
-  color: #fff;
-  text-decoration: none;
-  padding: 0px 18px;
-  padding-top: 2px;
-  margin-top: -32px;
-  margin-left: 30px;
-}
-
 .hotel-info > h2 > a {
   color: #000;
   text-decoration: none;
@@ -796,7 +783,7 @@ ul.form-hotels-list > li {
 .hotel-info > a:nth-of-type(1) {
   background-color: #81b3d2;  
   padding: 0px 18px;
-  padding-top: 2px;
+  padding-top: 3px;
   margin-top: -32px;
   margin-left: 30px;
 }
@@ -804,9 +791,9 @@ ul.form-hotels-list > li {
 .hotel-info > a:nth-of-type(2) {
   background-color: #766357;
   margin-top: -32px;
-  margin-left: 150px;
+  margin-left: 146px;
   padding: 0px 18px;
-  padding-top: 2px;
+  padding-top: 3px;
 }
 
 .hotel-info > a:nth-of-type(1):hover {
@@ -828,7 +815,7 @@ ul.form-hotels-list > li {
 }
 
 .hotel-ratings > .rating {
-  margin-top: 91px;
+  margin-top: 95px;
   margin-right: 73px;
   background-color: #f2f2f2;
   padding-left: 15px;
@@ -885,7 +872,7 @@ ul.form-hotels-list > li {
 .row {
   padding-left: 72px;
   border-top: 1px solid #e5e5e5;
-  height: 152px;
+  height: 150px;
 }
 
 .row:last-of-type {
@@ -1018,12 +1005,12 @@ ul.form-hotels-list > li {
 
 .stars-3 {
   background-image: url('../img/stars-3.png');
-  margin-right: 43px;
+  margin-right: 46px;
 }
 
 .stars-4 {
   background-image: url('../img/stars-4.png');
-  margin-right: 63px;
+  margin-right: 70px;
 }
 
 .filter-range {
