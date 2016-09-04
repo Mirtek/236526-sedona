@@ -453,12 +453,12 @@ input.checkin-input-position {
   padding-left: 17px;
 }
 
-input:focus {
+.checkinout-input:focus, .quantity:focus {
   outline: 3px solid #e5e5e5;
   background-color: #fff;
 }
 
-input:focus:hover {
+.checkinout-input:focus:hover, .quantity:focus:hover {
   background-color: #fff;
 }
 
@@ -1005,7 +1005,7 @@ ul.form-hotels-list > li {
 
 .stars-3 {
   background-image: url('../img/stars-3.png');
-  margin-right: 46px;
+  margin-right: 46§px;
 }
 
 .stars-4 {
