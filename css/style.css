@@ -1087,6 +1087,7 @@ ul.form-hotels-list > li {
 .price-controls input {
   width: 50px;
   margin: 0;
+  line-height: 36px;
 
   color: inherit;
   font: inherit;
