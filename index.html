@@ -5,7 +5,7 @@
   <title>HTML Academy: Седона</title>
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
   <div class="page-shadow">
@@ -93,13 +93,15 @@
                 </div>
                 <div class="form-date-wrap clearfix">
                   <label class="adults-label-position" for="adults">Взрослые: </label>
-                  <div class="sign-block sign-minus"></div>
-                  <input type="text" id="adults" class="quantity" name="adults-qty" value="2">
-                  <div class="sign-block sign-plus"></div>                  
-                  <label class="children-label-position" for="children">Дети: </label>
-                  <div class="sign-block sign-minus"></div>
-                  <input type="text" id="children" class="quantity" name="children-qty" value="0">
-                  <div class="sign-block sign-plus"></div>
+                  <div class="quantity-wrapper">
+                    <div class="sign-block sign-minus"></div>
+                    <input type="text" id="adults" class="quantity" name="adults-qty" value="2">
+                    <div class="sign-block sign-plus"></div>                  
+                    <label class="children-label-position" for="children">Дети: </label>
+                    <div class="sign-block sign-minus"></div>
+                    <input type="text" id="children" class="quantity" name="children-qty" value="0">
+                    <div class="sign-block sign-plus"></div>
+                  </div>
                 </div>
                 <input type="submit" value="Найти">
               </form>
@@ -126,7 +128,7 @@
       </footer>
     </div>
   </div>
-  <script src="js/script.js"></script>
+  <script src="js/script.min.js"></script>
   <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=OFD-rgKXL-6jYjg7-7iMtzVvIJE-GSxM&amp;width=1200&amp;height=593&amp;lang=ru_RU&amp;sourceType=constructor&amp;id=map-container&amp;scroll=false"></script>
 </body>
 </html>

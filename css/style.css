@@ -1,5 +1,5 @@
 ﻿body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', 'Arial', sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: #333;
@@ -373,20 +373,29 @@ section.form-container > p {
   padding-right: 7px;
   padding-bottom: 7px;
   padding-top: 16px;
-  margin-right: 15px;
+  padding-right: 0px;
+  margin-left: -5px;
+  text-align: left;
+  position: relative;
+  left: 7px;
+
 }
 
 .form-content label.checkout-label-position {
   float: left;
-  padding-left: 7px;
+  padding-left: 0px;
   padding-right: 7px;
   padding-bottom: 7px;
   margin-top: 9px;  
-  margin-right: 12px;
+  margin-right: 0px;
+  text-align: left;
+  position: relative;
+  left: 7px;
 }
 
 input.checkinout-input {
-  width: 325px;
+  float: right;
+  width: 328px;
   height: 37px;
   border: none;
   font-weight: bold;
@@ -417,6 +426,10 @@ input.checkin-input-position {
   margin-top: 9px;
 }
 
+.form-date-wrap:nth-of-type(1) {
+  position: relative;
+}
+
 .form-date-wrap:nth-of-type(2) {
   margin-top: 26px;
   margin-left: -2px;
@@ -426,20 +439,21 @@ input.checkin-input-position {
   font-size: 0px;
   margin-top: 30px;
   margin-left: -2px;
+  position: relative;
 }
 
 .form-content label.adults-label-position {
-  display: inline-block;
+  float: left;
   font-size: 14px;
-  margin-right: 38px;
   margin-left: 7px;
+  margin-top: 9px;
 }
 
 .form-content label.children-label-position {
   display: inline-block;
   font-size: 14px;
   margin-right: 25px;
-  margin-left: 54px;
+  margin-left: 55px;
 }
 
 .quantity {
@@ -453,12 +467,16 @@ input.checkin-input-position {
   padding-left: 17px;
 }
 
-input:focus {
+.quantity-wrapper {
+  float: right;
+}
+
+.checkinout-input:focus, .quantity:focus {
   outline: 3px solid #e5e5e5;
   background-color: #fff;
 }
 
-input:focus:hover {
+.checkinout-input:focus:hover, .quantity:focus:hover {
   background-color: #fff;
 }
 
@@ -759,19 +777,6 @@ ul.form-hotels-list > li {
   float: left;
 }
 
-.hotel-info > a:nth-of-type(1) {
-  display: block;
-  float: left;
-  height: 27px;
-  background-color: #81b3d2;
-  color: #fff;
-  text-decoration: none;
-  padding: 0px 18px;
-  padding-top: 2px;
-  margin-top: -32px;
-  margin-left: 30px;
-}
-
 .hotel-info > h2 > a {
   color: #000;
   text-decoration: none;
@@ -796,7 +801,7 @@ ul.form-hotels-list > li {
 .hotel-info > a:nth-of-type(1) {
   background-color: #81b3d2;  
   padding: 0px 18px;
-  padding-top: 2px;
+  padding-top: 3px;
   margin-top: -32px;
   margin-left: 30px;
 }
@@ -804,9 +809,9 @@ ul.form-hotels-list > li {
 .hotel-info > a:nth-of-type(2) {
   background-color: #766357;
   margin-top: -32px;
-  margin-left: 150px;
+  margin-left: 146px;
   padding: 0px 18px;
-  padding-top: 2px;
+  padding-top: 3px;
 }
 
 .hotel-info > a:nth-of-type(1):hover {
@@ -828,7 +833,7 @@ ul.form-hotels-list > li {
 }
 
 .hotel-ratings > .rating {
-  margin-top: 91px;
+  margin-top: 95px;
   margin-right: 73px;
   background-color: #f2f2f2;
   padding-left: 15px;
@@ -885,7 +890,7 @@ ul.form-hotels-list > li {
 .row {
   padding-left: 72px;
   border-top: 1px solid #e5e5e5;
-  height: 152px;
+  height: 150px;
 }
 
 .row:last-of-type {
@@ -1018,12 +1023,12 @@ ul.form-hotels-list > li {
 
 .stars-3 {
   background-image: url('../img/stars-3.png');
-  margin-right: 43px;
+  margin-right: 46px;
 }
 
 .stars-4 {
   background-image: url('../img/stars-4.png');
-  margin-right: 63px;
+  margin-right: 70px;
 }
 
 .filter-range {
@@ -1087,6 +1092,8 @@ ul.form-hotels-list > li {
 .price-controls input {
   width: 50px;
   margin: 0;
+  line-height: 38px;
+  padding-bottom: 20px; 
 
   color: inherit;
   font: inherit;
