@@ -404,6 +404,31 @@ section.form-container > p {
   left: 7px;
 }
 
+.calendar-icon {
+  width: 21px;
+  height: 22px;
+  position: relative;
+  background-image: url("../img/calendar-icon.png");
+}
+
+.calendar-icon:hover {
+  background-image: url("../img/calendar-icon-black.png");
+}
+
+.calendar-icon:active {
+  background-image: url("../img/calendar-icon-blue.png"); 
+}
+
+.checkin-icon-position {
+  top: 14px;
+  left: 433px;
+}
+
+.checkout-icon-position {
+  top: 5px;
+  left: 435px;
+}
+
 input.checkinout-input {
   float: right;
   width: 328px;
@@ -419,11 +444,7 @@ input.checkinout-input {
 
 input.checkinout-input:hover {
   background-color: #ebebeb;
-  background-image: url("../img/calendar-icon-black.png");
-}
 
-input.checkinout-input:active {
-  background-image: url("../img/calendar-icon-blue.png"); 
 }
 
 input.checkout-input-position {
