@@ -49,20 +49,20 @@ h2 {
   background-color: #91b9d7;
   background: url('../img/background-top.jpg') 0 -55px no-repeat;
   width: 100%;
-  height: 773px;  
-  overflow: hidden;
+  height: 773px;
+  position: relative;
+  z-index: -1;
 }
 
 .bgimage::after {
   content: "";
   width: 100%;
   height: 57px;
-  background: url('../img/overlay-mask.png') 0 0 no-repeat;
+  background: url('../img/overlay-mask.png') no-repeat;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   position: absolute;
-  top: 507px;
+  background-size: cover;
+  bottom: 264px;
 }
 
 .main-wrap {
@@ -604,10 +604,9 @@ a.form-heading {
 .main-footer {
   min-height: 70px;
   padding-top: 50px;
-  background-color: #fff;
   background-color: rgba(254, 254, 254, 0.9);
   position: relative;
-  bottom: 0;
+  z-index: 50;
 }
 
 .footer-hashtag {
