@@ -40,6 +40,9 @@ h2 {
 
 .bgimage-container {
   overflow: hidden;
+  overflow-x: hidden;
+  max-width: 1200px;
+  width: 1200px;
 }
 
 .bgimage {
@@ -47,6 +50,7 @@ h2 {
   background: url('../img/background-top.jpg') 0 -55px no-repeat;
   width: 100%;
   height: 773px;  
+  overflow: hidden;
 }
 
 .bgimage::after {
@@ -664,6 +668,8 @@ a.form-heading {
   background-image: url('../img/filter-background.jpg');
   background-position: 0 -55px;
   background-repeat: no-repeat;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .hotels-form-container > form {
@@ -675,7 +681,6 @@ a.form-heading {
 fieldset.form-1-column {
   width: 255px;
   float: left;
-  padding-left: 73px;
 }
 
 fieldset.form-2-column {
@@ -772,7 +777,8 @@ ul.form-hotels-list > li {
 
 .hotels-list-menu {
   min-height: 68px;
-  padding-left: 73px;
+  padding-left: 6%;
+  padding-right: 6%;
   padding-top: 17px;
 }
 
@@ -987,7 +993,7 @@ ul.form-hotels-list > li {
 
 .arrows {
   float: right;
-  margin-right: 62px;
+  margin-right: -9px;
   margin-top: 22px;
 }
 
