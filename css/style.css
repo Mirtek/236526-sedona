@@ -820,6 +820,10 @@ ul.form-hotels-list > li {
   color: #cacaca;
 }
 
+.btn-wrapper {
+  width: 292px;
+}
+
 .btn-wrapper > a {
   display: block;
   height: 27px;
