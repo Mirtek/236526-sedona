@@ -820,44 +820,45 @@ ul.form-hotels-list > li {
   color: #cacaca;
 }
 
-.hotel-info > a {
+.btn-wrapper > a {
   display: block;
-  float: left;
   height: 27px;
   color: #fff;
   text-decoration: none;
 }
 
-.hotel-info > a:nth-of-type(1) {
+.btn-wrapper > a:nth-of-type(1) {
+  float: left;
   background-color: #81b3d2;  
   padding: 0px 18px;
   padding-top: 3px;
-  margin-top: -32px;
+  margin-right: 3px;
   margin-left: 30px;
+  margin-top: -32px;
 }
 
-.hotel-info > a:nth-of-type(2) {
+.btn-wrapper > a:nth-of-type(2) {
+  float: right;
   background-color: #766357;
-  margin-top: -32px;
-  margin-left: 146px;
   padding: 0px 18px;
   padding-top: 3px;
+  margin-top: -32px;
 }
 
-.hotel-info > a:nth-of-type(1):hover {
+.btn-wrapper > a:nth-of-type(1):hover {
   background-color: #669ec0;
 }
 
-.hotel-info > a:nth-of-type(1):active {
+.btn-wrapper > a:nth-of-type(1):active {
   background-color: #5496bd;
   color: rgba(255, 255, 255, 0.3);
 }
 
-.hotel-info > a:nth-of-type(2):hover {
+.btn-wrapper > a:nth-of-type(2):hover {
   background-color: #604e43;
 }
 
-.hotel-info > a:nth-of-type(2):active {
+.btn-wrapper > a:nth-of-type(2):active {
   background-color: #503e33;
   color: rgba(255, 255, 255, 0.3);
 }
