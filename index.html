@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -21,7 +21,9 @@
       </nav>
     </header>
     <main class="main-wrap">
-      <div class="bgimage"></div>
+      <div class="bgimage-container">      
+        <div class="bgimage"></div>
+      </div>
       <div class="overlay-position overlay-mask">
         <section class="heading-container">
           <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
@@ -86,10 +88,12 @@
                 <div class="form-date-wrap clearfix">
                   <label class="checkin-label-position" for="checkin">Дата заезда: </label>
                   <input class="checkinout-input checkin-input-position" value="24 Апреля 2016" name="checkin-date" type="text" id="checkin">
+                  <div class="calendar-icon checkin-icon-position"></div>
                 </div>
                 <div class="form-date-wrap clearfix">
                   <label class="checkout-label-position" for="checkout">Дата выезда: </label>
                   <input class="checkinout-input checkout-input-position" value="4 Июля 2016" name="checkout-date" type="text" id="checkout">
+                  <div class="calendar-icon checkout-icon-position"></div>
                 </div>
                 <div class="form-date-wrap clearfix">
                   <label class="adults-label-position" for="adults">Взрослые: </label>
@@ -112,7 +116,7 @@
     </main>
     <div class="map-footer-container">
       <div class="map-container" id="map-container"></div>
-      <footer class="main-footer main-footer-index-position">
+      <footer class="main-footer">
         <section class="footer-hashtag">
           #Visitsedona
         </section>
