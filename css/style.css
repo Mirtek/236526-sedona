@@ -94,6 +94,11 @@ nav.main-nav a {
   top: 0px;
 }
 
+nav.main-nav {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
 nav.main-nav > ul {
   padding: 0;
   margin-top: -5px;
@@ -128,21 +133,27 @@ nav.main-nav a.main-nav-active:active {
   color: #dbd8d5;
 }
 
+nav.main-nav > ul > li {
+  width: 20%;
+}
+
 nav.main-nav > ul > li:nth-child(1) {
-  margin-left: 71px;
+  text-align: left;
 }
 
 nav.main-nav > ul > li:nth-child(2) {
-  margin-left: 143px;
+  margin-left: 27px;
+  text-align: left;
 }
 
 nav.main-nav > ul > li:nth-child(3) {
-  margin-left: 385px;
+  margin-left: 145px;
+  text-align: right;
 }
 
 nav.main-nav > ul > li:nth-child(4) {
-  margin-left: 162px;
-  margin-right: 15px;
+  margin-left: 27px;
+  text-align: right;
 }
 
 .heading-container {
@@ -577,22 +588,24 @@ a.form-heading {
 .footer-hashtag {
   float: left;
   width: 267px;
-  padding-left: 133px;
+  padding-left: 69px;
   font-size: 21px;
   font-weight: bold;
-
+  text-align: center;
 }
 
 .footer-social {
   float: left;
   width: 276px;
   padding-left: 124px;
+  text-align: center;
 }
 
 .footer-copyright {
   float: left;
   width: 297px;
-  padding-left: 103px;
+  padding-left: 167px;
+  text-align: center;
 }
 
 .footer-copyright > span {
